@@ -106,6 +106,24 @@ export const DATA = {
 
   ],
   projects: [
+     {
+      title: "Kapadokya Değer Ödülleri Web Sitesi",
+      href: "https://kapadokyaodulleri.com.tr",
+      dates: "—",
+      active: true,
+      description:
+        “Elit katılımcılarıyla bölgenin kültürel, sanatsal ve bilimsel başarılarını onurlandıran, modern tasarımlı Kapadokya Değer Ödülleri web platformu.”,
+      technologies: ["HTML", "JavaScript", "PHP", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://kapadokyaodulleri.com.tr",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/deger-odul.png",
+      video: "",
+    },
     {
       title: "Kapadokya Üniversitesi Web Sitesi",
       href: "https://kapadokya.edu.tr",
