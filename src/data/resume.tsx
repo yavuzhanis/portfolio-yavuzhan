@@ -106,13 +106,46 @@ export const DATA = {
 
   ],
   projects: [
-     {
+    {
+      title: "Convert Programs – Online Dönüştürme Platformu",
+      href: "https://convertprograms.xyz",
+      dates: "2024 —",
+      active: true,
+      description:
+      "An online file conversion platform with a modern interface, enabling secure and fast conversion between formats such as PDF, Word, and Excel. Both backend and frontend processes were fully designed and developed by me.",
+      technologies: [
+        "Laravel",
+        "PHP",
+        "JavaScript",
+        "HTML",
+        "TailwindCSS",
+        "FPDI",
+        "PhpSpreadsheet"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://convertprograms.xyz",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/yavuzhanis/kunconvert",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/kun_Convert.png",
+      video: "",
+    }
+    ,
+    {
       title: "Kapadokya Değer Ödülleri Web Sitesi",
       href: "https://kapadokyaodulleri.com.tr",
       dates: "—",
       active: true,
       description:
-        “Elit katılımcılarıyla bölgenin kültürel, sanatsal ve bilimsel başarılarını onurlandıran, modern tasarımlı Kapadokya Değer Ödülleri web platformu.”,
+         "A modernly designed web platform for the Cappadocia Value Awards, honoring the region’s cultural, artistic, and scientific achievements with distinguished participants.",
+
       technologies: ["HTML", "JavaScript", "PHP", "TailwindCSS"],
       links: [
         {
